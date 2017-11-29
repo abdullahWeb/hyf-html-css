@@ -1,0 +1,399 @@
+body {
+	margin: 0%;
+	padding: 0%;
+	font-family: "Proxima Nova", sans-serif;
+}
+
+header {
+	background-color: #F7A100;
+	width: 100%;
+	height: 50%;
+}
+
+.logo {
+	display: inline-block;
+	width: 100px;
+	height: auto;
+	margin-left: 10%;
+	padding-top: 0.5%;
+}
+
+.reg {
+	display: inline-block;
+	width: 50% height:auto;
+	float: right;
+	margin-top: 1%;
+	margin-right: 10%;
+}
+
+.reg a {
+	text-decoration: none;
+	color: white;
+	border-top: 10%;
+}
+
+.reg a:hover {
+	color: #DE9000;
+}
+
+.mainPhoto {
+	width: 100%;
+	height: 250px;
+	background-color: #E6F2F7;
+}
+
+
+.bike {
+	display: inline-block;
+	margin-left: 9%;
+}
+
+.house {
+	float: right;
+	margin-right: 9%;
+}
+
+.house img {
+	margin-top: 7%;
+}
+
+.bike img {
+	margin-top: 10%;
+}
+
+.mainPhoto h2 {
+	color: #53241B;
+	font-size: 28px;
+	vertical-align: top;
+	margin-top: 5%;
+	display: inline-block;
+}
+
+.searchBox {
+	width: 80%;
+	height: 150px;
+	background-color: #F7A100;
+	margin-left: 10%;
+}
+
+.navBar {
+	display: block;
+}
+
+.navBar ul {
+	height: 70px;
+}
+
+.navBar ul li {
+	margin: 2% 0% 3% 3%;
+	color: white;
+	font-size: 22px;
+	font-family: "Proxima Nova", sans-serif;
+	display: inline-block;
+}
+
+#searchInput {
+	display: inline-block;
+	padding-left: 11.2px;
+	border: 1px solid white;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	height: 44px;
+	color: #0071B3;
+	box-shadow: none;
+	width: 35%;
+	margin-left: 6%;
+	margin-bottom: 3%;
+}
+
+input::-webkit-input-placeholder {
+	font-size: 17px;
+	line-height: 3;
+}
+
+#selectKm {
+	display: inline-block;
+	padding-left: 11.2px;
+	border: 1px solid white;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	height: 44px;
+	color: #0071B3;
+	box-shadow: none;
+	width: 9%;
+	margin-bottom: 3%;
+}
+
+.service-small {
+	font-size: 15px;
+}
+
+#price {
+	display: inline-block;
+	padding-left: 11.2px;
+	border: 1px solid white;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	height: 44px;
+	color: #0071B3;
+	box-shadow: none;
+	width: 18%;
+	margin-bottom: 3%;
+}
+
+.zoek {
+	width: 8%;
+	height: 44px;
+	display: inline-block;
+	background-color: #0071B3;
+	color: white;
+	box-shadow: 0 0.0625em 0 rgba(0, 0, 0, 0.1), inset 0 0 0 rgba(0, 0, 0, 0.1);
+	font-size: 17px;
+}
+
+.kaartZoek h4 {
+	display: inline-block;
+	margin-right: -0.5%;
+	margin-left: 3%;
+}
+
+.kaartZoek .kaart {
+	margin-left: 10%;
+}
+
+.kaartZoek h4 a {
+	text-decoration: none;
+	color: #0066B7;
+}
+
+.offersPic {
+	width: 100%;
+	height: 300px;
+}
+
+.offersPic img {
+	width: 25%;
+	height: 240px;
+	padding-left: 1.5%;
+	display: inline-block;
+}
+
+.offersPic .firstImg {
+	margin-left: 9%;
+}
+
+.offersPic h2 {
+	margin-left: 10.5%;
+	color: #333333;
+}
+
+.street {
+	width: 100%;
+	height: 25px;
+}
+
+.street p {
+	display: inline-block;
+	color: #3779B3;
+}
+
+.street .firstOffer {
+	margin-left: 10.5%;
+}
+
+.street .secondOffer {
+	margin-left: 19%;
+}
+
+.street .thirdOffer {
+	margin-left: 19%;
+}
+
+.postcode {
+	width: 100%;
+	height: 31px;
+}
+
+.postcode p {
+	display: inline-block;
+}
+
+.postcode .firstOffer {
+	margin-left: 10.5%;
+}
+
+.postcode .secondOffer {
+	margin-left: 16%;
+}
+
+.postcode .thirdOffer {
+	margin-left: 18.5%;
+}
+
+.price {
+	width: 100%;
+	height: 100px;
+}
+
+.price p {
+	display: inline-block;
+}
+
+.price .firstOffer {
+	margin-left: 10.5%;
+}
+
+.price .secondOffer {
+	margin-left: 19%;
+}
+
+.price .thirdOffer {
+	margin-left: 19.5%;
+}
+
+.TheWoodenHouse {
+	width: 48%;
+	height: 260px;
+	margin-left: 10.5%;
+	background-image: url(20171020-huizen-met-een-naam-min.png);
+}
+
+.TheWoodenHouse h2 {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+.TheWoodenHouse a {
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.TheWoodenHouse a p {
+	border: 2px solid white;
+	border-radius: 2px;
+	line-height: 40px;
+	margin-left: 37%;
+	margin-right: 37%;
+}
+
+.TheWoodenHouse a p:hover {
+	background-color: #837E75;
+}
+
+.nieuws h2 {
+	color: #333333;
+	margin-top: 5%;
+	margin-left: 10%;
+}
+
+.autumnPic {
+	display: inline-block;
+}
+
+.autumnPic a {
+	text-decoration: none;
+	color: white;
+}
+
+.autumnPic a p .header {
+	font-size: 30px;
+}
+
+.nieuws .autumnPic {
+	width: 48%;
+	height: 348px;
+	background-image: url(header_2016x658_gamma-herfstklaar-1.jpg);
+	margin-left: 10%;
+}
+
+.autumnPic a p {
+	padding-top: 25%;
+	padding-left: 7%;
+}
+
+.autumnPic a p:hover {
+	color: #005193;
+}
+
+.smallPic {
+	display: inline-block;
+}
+
+.smallPic ul {
+	list-style: none;
+}
+
+.dicSmallPic {
+	display: inline-block;
+}
+
+.dicSmallPic ul {
+	list-style: none;
+}
+
+.dicSmallPic ul li h4 {
+	color: #0077C3;
+}
+
+.footer {
+	width: 100%;
+	height: 350px;
+	background-color: #EDEDED;
+}
+
+.option {
+	width: 100%;
+	height: 290px;
+	display: block;
+}
+
+.contact {
+	width: 100%;
+	display: block;
+}
+
+.option ul {
+	display: inline-block;
+	list-style: none;
+	margin-left: 10%;
+}
+
+.option a {
+	text-decoration: none;
+	color: #3390CE;
+}
+
+.option .firstRow {
+	padding-top: 2%;
+}
+
+.option .secondRow {
+	vertical-align: top;
+	padding-top: 4%;
+}
+
+.option .thirdRow {
+	padding-top: 3%;
+}
+
+.option .forthRow {
+	vertical-align: top;
+	padding-top: 4%;
+}
+
+.contact img {
+	margin-left: 11%;
+}
+
+@media  and (max-width: 768px){
+
+body{
+
+	font-size: 30px;
+}
+
+
+
+}
